@@ -14,12 +14,20 @@ The project encompasses the following skills and technologies:
 * Keras
 * Teachable Machine
 
-## Project Highlights
+## Module Imports
 
-The project's key highlights include:
+| Module Name           | Description                                                                                   |
+|-----------------------|-----------------------------------------------------------------------------------------------|
+| `cv2`                 | OpenCV (Open Source Computer Vision Library) is used for image and video processing in Python. |
+| `HandDetector`        | Module from `cvzone` library for hand detection.                                              |
+| `Classifier`          | Module from `cvzone` library for image classification.                                        |
+| `numpy`               | A fundamental package for scientific computing in Python.                                     |
+| `math`                | The `math` module provides mathematical functions defined by the C standard.                   |
 
-1. **Bridging Communication Gaps:** The system empowers individuals with limited or no vocal ability to communicate effectively using hand gestures, bridging communication barriers.
+## Usage
+Ensure you have installed the required dependencies before running the script. You can install them using pip:
 
-2. **Leveraging Machine Learning:** The implementation of a Keras model for accurate hand gesture prediction enhances communication accuracy and efficiency.
+```bash
+pip install opencv-python
+pip install cvzone
 
-3. **Utilizing Python Programming:** The development of the hand gesture detection system using Python programming language demonstrates proficiency in data analysis and machine learning application.
